@@ -1,0 +1,194 @@
+body{
+  /* background: url('../img/wall.jpeg') no-repeat 50% 50%; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  height: 100vh; /* Fallback */
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+section{
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner{
+  background: url('../img/wall.jpeg') no-repeat 50% 50%;
+  background-size: cover;
+}
+
+section.banner .content{
+  text-align: center;
+}
+
+section.banner .content h1{
+  font-size: 6em;
+  font-weight: 300;
+  color: var(--gr2-);
+  margin: 0 0 20px;
+  padding: 0;
+  text-shadow: var(--text-sh-);
+}
+
+section.banner .content h3{
+  font-size: 3em;
+  color: var(--dc-);
+  text-transform: uppercase;
+  margin: 0 0 3em;
+  padding: 0;
+}
+
+section.banner .content a{
+  border: 2px solid var(--dc-);
+  color: var(--dc-);
+  padding: 10px 20px;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 0.1em;
+  font-weight: 600;
+}
+
+section.banner .content a:hover{
+  background: var(--dc-);
+  color: var(--sg-);
+}
+
+.post{
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #fff;
+}
+
+.post img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  object-fit: cover;
+  box-shadow: var(--shadow3-);
+}
+
+.post .btn{
+  position: absolute;
+  color: var(--sg-);
+  background: var(--dc-);
+  box-shadow: var(--shadow1-);
+  padding: 10px 40px;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0.1em;
+}
+
+.post .btn:hover{
+  text-shadow: var(--text-sh-);
+}
+
+.post .btn.prev{
+  top: 50px;
+  left: -80px;
+}
+
+.post .btn.next{
+  bottom: 50px;
+  right: -80px;
+}
+
+.post-title{
+  position: absolute;
+  background: var(--rgba-dc-);
+  color: var(--sg-);
+  bottom: 20px;
+  left: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px;
+  line-height: 40px;
+  width: calc(100% - 100px);
+  box-sizing: border-box;
+}
+
+.post-date{
+  position: absolute;
+  top: -50px;
+  right: 50px;
+  background: var(--dc-);
+  color: var(--sg-);
+  padding: 20px;
+  box-shadow: var(--shadow1-);
+}
+
+.post span{
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.post-date span:nth-child(1){
+  font-size: 60px;
+  font-weight: 700;
+  marin-bottom: 5px;
+}
+
+.post-date span:nth-child(2),
+.post-date span:nth-child(3){
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+#post1{
+  background: url(../img/Whitey/img_06.jpeg) 50% 50%;
+  background-size: cover;
+}
+#post2{
+  background: url(../img/Whitey/img_02.jpeg) 50% 50%;
+  background-size: cover;
+}
+#post3{
+  background: url(../img/Whitey/img_03.jpeg) 50% 50%;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
